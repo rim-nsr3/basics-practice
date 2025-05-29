@@ -1,6 +1,5 @@
-<style>
-  p {
-    font-family: Arial;
+p {
+    font-family: Roboto;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -41,24 +40,3 @@
   text-decoration: underline;
   cursor: pointer;
 }
-</style>
-
-<p class="video">
-  Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
-
-<p class="views">
-  3.4M views &#183; 6 months ago
-</p>
-
-<p class="name">
-  Marques Brownlee &#10003;
-</p>
-
-<p class="description">
-  Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
-</p>
-
-<p class="box">
-  Shop early for the best selection of holiday favourites. <span class="shop">Shop now &gt;</span>
-</p>
