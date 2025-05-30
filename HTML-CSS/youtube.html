@@ -3,6 +3,9 @@
   <head>
     <title>Youtube.com Clone</title>
     <style>
+      .search{
+        display: block;
+      }
       .thumbnail {
         width: 300px;
         display: block;
@@ -10,15 +13,30 @@
       .title1{
         width: 300px; 
       }
+      .video{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
       
     </style>
   </head>
 
   <body>
     <input class="search" type="text" placeholder="Search" />
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
-    <p class="title1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-    <p class="name">Marques Brownlee</p>
-    <p class="stats">3.4M views &#183; 6 months ago</p>
+    
+    <div class="video">
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+      <p class="title1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+      <p class="name">Marques Brownlee</p>
+      <p class="stats">3.4M views &#183; 6 months ago</p>
+    </div>
+    <div class="video">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp" />
+      <p class="title1">Try Not To Laugh Challenge #9</p>
+      <p class="name">Markiplier</p>
+      <p class="stats">19M views &#183; 4 years ago</p>
+    </div>
   </body>
 </html>
