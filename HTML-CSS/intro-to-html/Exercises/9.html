@@ -4,7 +4,6 @@
     <title>divs</title>
     <style>
       .cont{
-        display: inline-block;
         border-radius: 10px;
         box-shadow: 0px 1px 10px rgba(0,0,0,0.25);
         margin-right: 20px;
@@ -43,10 +42,16 @@
         margin-bottom: 10px;
         cursor: pointer;
         }
+      .grids{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        }
     </style>
   </head>
   <body>
-    <div class="cont">
+    <div class="grids">
+      <div class="cont">
       <img class="pic" src="bingus1.jpg">
       <p class="name">Oliver</p>
       <p class="friend">2 mutual friends</p>
@@ -64,5 +69,7 @@
       <p class="friend">4 mutual friends</p>
       <button class="add">Add Friend</button>
     </div>
+    </div>
+    
   </body>
 </html>
