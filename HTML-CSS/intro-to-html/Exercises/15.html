@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position shirt</title>
+    <style>
+      body{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-content: center;
+      }
+      .gnome{
+        height: 500px;
+        width: 500px;
+        border: 1px;
+        border-radius: 10px;
+      }
+      .test{
+        position:relative;
+        display: inline-block;
+      }
+      .discount{
+        position:absolute;
+        top: 10px;
+        right: 0px;
+        background-color: black;
+        color:white;
+        padding-right: 5px;
+        font-family: Arial;
+        padding-left: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+      }
+      .add{
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.7);
+        bottom: 0;
+        right:0;
+        left:0;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .cart{
+        
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 15px;
+        padding-left: 15px;
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+  <body>
+      <div class="test">
+        <img class="gnome" src="gnome.jfif">
+        <div class="discount">20% OFF</div>
+        <div class="add">
+          <button class="cart">Add to Cart</button>
+        </div>
+      </div>
+  
+  </body>
+</html>
