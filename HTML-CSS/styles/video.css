@@ -7,7 +7,7 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 20px;
-        margin-bottom: 12px;
+        margin-bottom: 10px;
       }
       .name, .stats{
         font-size: 12px;
@@ -28,11 +28,11 @@
         width: 245px;
       }
       .brownlee{
-        width: 40px;
+        width: 36px;
         border-radius: 50px;
       }
       .thumbnailrow{
-        margin-bottom: 12px;
+        margin-bottom: 8px;
         position: relative;
       }
       .videogrid{
@@ -55,4 +55,8 @@
         padding-top: 4px;
         padding-bottom: 4px;
         border-radius: 4px;
+      }
+      .video-title-link{
+        text-decoration: none;
+        color: black;
       }
